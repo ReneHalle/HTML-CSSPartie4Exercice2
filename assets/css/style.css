@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#grill-container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 100% 50% 75% ;
+    column-gap: 10px;
+    row-gap: 10px;
+    /* gap pour espacer les grilles */
+    /* Repeat 3 pour repeté pour 3 colones et 3 lignes pour le rows */
+}
+
+.one{
+background-color: #b03532;  
+}
+
+.two{
+background-color: #33a8a5;
+}
+
+.three{
+background-color: #30997a;
+}
+
+.four{
+background-color: #6a478f;
+}
+
+.five{
+background-color: #da6f2b;
+}
+
+.six{
+background-color: #3d8bb1;
+grid-column: 4/4;
+}
+
+.seven{
+background-color: #e03f3f;
+}
+
+.eight{
+background-color: #59a627;
+grid-column: 3/4;
+}
+
+.nine{
+background-color: #4464a1;
+}
